@@ -39,6 +39,6 @@ std::string EscapeString(const Slice& value);
 // unspecified state.
 bool ConsumeDecimalNumber(Slice* in, uint64_t* val);
 
-}  // namespace leveldb
+} // namespace leveldb
 
-#endif  // STORAGE_LEVELDB_UTIL_LOGGING_H_
+#endif // STORAGE_LEVELDB_UTIL_LOGGING_H_
